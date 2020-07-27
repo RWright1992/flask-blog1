@@ -1,0 +1,5 @@
+/flask-app/__pycache__
+*.pyc
+/flask-app/flask-templates/__pycache__
+/flask-app/flask-templates/venv
+/flask-app/flask-templates/application/__pycache__
