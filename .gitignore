@@ -3,3 +3,6 @@
 /flask-app/flask-templates/__pycache__
 /flask-app/flask-templates/venv
 /flask-app/flask-templates/application/__pycache__
+/flask-app/flask-templates/tests/__pycache__
+/flask-app/flask-templates/.coverage
+/flask-app/flask-templates/.pytest_cache
