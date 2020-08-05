@@ -1,0 +1,11 @@
+[Unit]
+Description=Flask Blog Service
+[Service]
+User=flask-app
+WorkingDirectory=/opt/app
+EnvirornmentFile=/opt/app/flask.env
+ExecStart=/bin/sh -c 'cd /opt/app && \
+	. ./venv/bin/activate &&\
+        gunicorn --workers=4 --bind=0.0.0.0:5000 app:app'
+[Install]
+WantedBy=multi-user.target
